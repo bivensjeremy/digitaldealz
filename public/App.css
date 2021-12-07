@@ -1,0 +1,135 @@
+body{
+  background-color: #E0E0E0;
+  font-family: 'Roboto', sans-serif;
+  
+}
+h1, h2{
+  font-family: 'Oswald', sans-serif;
+}
+/* Header */
+.navbar-brand{
+  font-family: 'Roboto', sans-serif;
+}
+/* Landing Page */
+.title-section{
+  padding: 50vh 5%;
+  /* background-image: url(images/cityvector.jpeg);
+  will-change: transform;
+  transform: translate3d(0px, -9.4638vh, 0px) scale3d(1.06309, 1.06309, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d; */
+}
+.cityimage{
+  width: 100vw;
+  position: absolute;
+  bottom: 10%;
+  z-index: -1;
+}
+.taglines{
+  position: absolute;
+  bottom: 10%;
+  width: 60%;
+}
+.taglines hr{
+  width: 60%;
+}
+
+#features-section, #cta-section{
+  color: #FFFFFF;
+  padding: 15% 5%;
+  text-align: center;
+}
+.title-right{
+  margin: auto;
+  text-align: center;
+}
+.features h2, .about-title{
+  font-weight: 700;
+}
+#highlighted-item-section, #mailing-list-section{
+  padding: 5% 10%;
+  text-align: center;
+  margin: auto;
+}
+.signup-required{
+  position: absolute; 
+  left: -5000px;
+}
+.mailer-response{
+  display: none;
+}
+.subscribe-email{
+  width: 60%;
+  padding: 1%;
+  margin:10px 0;
+  border: 0;
+  border-bottom: 1px solid;
+  background: transparent;
+}
+
+/* Footer */
+.footer{
+  padding: 5%;
+  text-align: center;
+}
+
+.footer a{
+  text-decoration: none;
+}
+/* About Page */
+.about-container{
+  padding: 7% 10%;
+  background-color: #9CAFD9;
+  margin: 5%;
+  border: solid #003099;
+}
+.about-title{
+  font-size: 400%;
+}
+.about-container p{
+  text-align: justify;
+}
+/* FAQ Page */
+.faq-container{
+  padding: 5% 10%;
+  color: #FFFFFF;
+  margin: 5%;
+  border: solid #003099;
+}
+.faqs{
+  text-align: justify;
+  margin: 10%;
+}
+/* Pricing Page */
+.pricing-title{
+  text-align: center;
+  font-weight: 700;
+  padding: 5%;
+}
+
+.store-header-line{
+  width: 50%;
+  margin: auto;
+}
+.inventory-card{
+  width: 100%;
+}
+.pricing-card{
+  max-width: 540px;
+}
+
+.inventory{
+  padding: 3%;
+}
+
+
+.cart-title, .contact-title, .store-header, .faq-title{
+  font-size: 400%;
+}
+
+.contact-form{
+  padding: 0 15%;
+}
+.message-body{
+  width: 100%;
+  height: 200px;
+}
